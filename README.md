@@ -1,11 +1,11 @@
-# SUB 2 TXT 
+# SUB 2 PUB 
 
 Outputs an EPUB of the video's subtitles.
 
 ## Usage
 
 ```bash
-./sub2txt.sh video_url [--auto]
+./sub2pub.sh video_url [--auto]
 ```
 
 * `video_url` - String of the youtube URL. e.g. "https://www.youtube.com/watch\?v\=NVGuFdX5guE"
