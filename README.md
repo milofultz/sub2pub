@@ -1,15 +1,11 @@
-# SUB 2 TXT
+# SUB 2 TXT 
 
-Remove all fluff and leave just the text.
+Outputs an EPUB of the video's subtitles.
 
-Remove line if
+```bash
+./sub2txt.sh video_url [--auto]
+```
 
-* empty line
-* only a number and preceded by an empty line
-* timestamp "\d{2}:\d{2}:\d{2},\d{3} --> \d{2}:\d{2}:\d{2},\d{3}"
+* `video_url` - String of the youtube URL. e.g. "https://www.youtube.com/watch\?v\=NVGuFdX5guE"
+* `--auto` (optional) - Uses the auto-generated English captions. Use this if no user made caption exists. (DOES NOT WORK YET)
 
-Use ytdlp
-
-yt-dlp https://www.youtube.com/watch\?v\=NVGuFdX5guE --write-subs --skip-download
-
-https://docs.yt-dlp.org/en/2021.12.27/README.html\#usage-and-options
