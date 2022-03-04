@@ -1,3 +1,5 @@
+# ported to codeberg: https://codeberg.org/milofultz/sub2pub
+
 # SUB 2 PUB 
 
 Outputs an EPUB of the video's subtitles.
